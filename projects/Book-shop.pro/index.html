@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Shop</title>
+    <link rel="icon" href="img\bookTitle.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Hanalei&family=Indie+Flower&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Hanalei&display=swap" rel="stylesheet">
+    <link rel='stylesheet' href='main.css'>
+</head>
+
+<body onload="init()">
+    <h1>B o o k S h o p</h1>
+    <select class="submit" onchange="onSortFilter()" name="sortBy">
+        <option value="name">Name</option>
+        <option value="price">Price</option>
+        <option value="rank">Rank</option>
+    </select>
+    <button class="add-book-btn .submit" onclick="onShowForm()">Add your book!</button>
+    <form hidden onsubmit="onAddBook(event)" name="submit-book">
+        <input class="submit" type="text" placeholder="Book name" name="book-name" required>
+        <input class="submit" type="number" min="1" placeholder="Book price" name="book-price" required>
+        <button class="add-book-save">Add book</button>
+    </form>
+    <section class="book-container">
+        <table class="table">
+        </table>
+        <div class="modal"></div>
+    </section>
+    <div class="pages">
+        <button class="previos-page" onclick="onPreviousPage()">Previous page</button>
+        <button onclick="onFirstPage()">First Page</button>
+        <button class="next-page" onclick="onNextPage()">Next page</button>
+    </div>
+    <h3><span class="page">1</span></h3>
+    <script src="util.js"></script>
+    <script src="storage-service.js"></script>
+    <script src="book-service.js"></script>
+    <script src="controller.js"></script>
+</body>
+
+</html>

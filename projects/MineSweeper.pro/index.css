@@ -1,0 +1,133 @@
+body {
+    background-color: rgb(19, 143, 108);
+    text-align: center;
+    margin: auto;
+    cursor: default;
+    font-family: cursive;
+}
+
+h1 {
+    color: rgba(0, 10, 151, 0.856);
+}
+
+.table {
+    border: 4px solid rgba(255, 255, 255, 0.438);
+    padding: 1px;
+    margin: auto;
+    cursor: crosshair;
+}
+
+.cell {
+    background-color: rgb(100, 100, 100);
+    color: rgb(0, 0, 0);
+    width: 25px;
+    height: 25px;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+.cell:hover {
+    background-color: rgb(141, 141, 141);
+    color: rgb(0, 0, 0);
+    width: 25px;
+    height: 25px;
+}
+
+button {
+    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 7px;
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgba(70, 46, 179, 0.705);
+    color: rgb(255, 255, 255);
+    transition: 0.3s;
+    font-family: cursive;
+}
+
+button:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(35, 0, 190);
+    border: 3px solid white;
+}
+
+button:active {
+    color: coral;
+    background-color: rgb(19, 143, 108);
+    border: 1px solid black;
+}
+
+.clicked {
+    background-color: rgba(207, 207, 207, 0.911);
+    color: rgb(0, 0, 0);
+    width: 25px;
+    height: 25px;
+    transition: 0.3s;
+}
+
+.smiley {
+    margin-bottom: 20px;
+    font-size: 40px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.smiley:hover {
+    font-size: 42px;
+}
+
+.time {
+    color: rgb(255, 255, 255);
+    font-size: large;
+    background-color: rgba(100, 100, 100, 0.534);
+    width: 180px;
+    height: 25px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 4px solid rgba(255, 255, 255, 0.438);
+    border-left: 4px solid rgba(255, 255, 255, 0.438);
+    border-right: 4px solid rgba(255, 255, 255, 0.438);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.marked {
+    background-color: rgb(207, 207, 207);
+    color: rgb(0, 0, 0);
+    width: 25px;
+    height: 25px;
+    transition: 0.3s;
+}
+
+.mines-left {
+    color: rgb(255, 255, 255);
+    font-size: large;
+    background-color: rgba(100, 100, 100, 0.534);
+    width: 180px;
+    height: 25px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-left: 4px solid rgba(255, 255, 255, 0.438);
+    border-right: 4px solid rgba(255, 255, 255, 0.438);
+}
+
+.lives {
+    color: rgb(255, 255, 255);
+    font-size: large;
+    background-color: rgba(100, 100, 100, 0.534);
+    width: 180px;
+    height: 25px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 4px solid rgba(255, 255, 255, 0.438);
+    border-left: 4px solid rgba(255, 255, 255, 0.438);
+    border-right: 4px solid rgba(255, 255, 255, 0.438);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}

@@ -1,0 +1,78 @@
+body {
+    background-color: rgb(0, 0, 0);
+    color: rgb(250, 204, 0);
+    text-align: left;
+    font-family: cursive;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.cell {
+    margin: auto;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.board-container {
+    margin: auto;
+}
+
+.restart {
+    cursor: pointer;
+    margin: auto;
+    color: black;
+    transition: 0.5s;
+}
+
+.restart-modal {
+    text-align: center;
+    border: 5px solid white;
+    background-color: rgb(109, 96, 38);
+    display: none;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 50px;
+    width: 325px;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.restart-modal2 {
+    text-align: center;
+    border: 5px solid white;
+    background-color: rgb(109, 96, 38);
+    display: none;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 50px;
+    width: 325px;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.restart-modal:hover {
+    background-color: white;
+    border: 8px solid rgb(250, 204, 0);
+    transition: 0.5s;
+}
+
+.victory {
+    color: black;
+}
+
+.pacman {
+    color: yellow;
+    margin-left: 10px;
+}
+
+h2 {
+    margin-left: 10px;
+}
+
+⍩⃝ {
+    color: blue;
+}
