@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(58, 129, 117);
+    color: white;
+    text-align: center;
+}
+
+.cell {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
+
+.cell img {
+    width: 25px;
+    height: auto;
+    transition: all 0.5s;
+}
+
+.floor {
+    background-color: rgb(255, 196, 0);
+}
+
+.wall {
+    background-color: rgba(46, 34, 12, 0.781);
+}
+
+.restart-game {
+    background-color: rgb(255, 217, 0);
+    color: rgb(0, 0, 0);
+    border: 3px solid black;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.restart-game:hover {
+    background-color: black;
+    color: rgb(255, 217, 0);
+    border: 10px solid rgb(255, 217, 0);
+}
+
+.table {
+    margin-left: auto;
+    margin-right: auto;
+}

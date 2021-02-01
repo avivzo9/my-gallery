@@ -1,0 +1,43 @@
+.baloon {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    position: absolute;
+    transition: 0.5s;
+}
+
+.baloon1 {
+    background: red;
+    left: 40px;
+    bottom: 10px;
+}
+
+.baloon2 {
+    background: blue;
+    left: 380px;
+    bottom: 10px;
+}
+
+.baloon3 {
+    background: rgb(255, 0, 170);
+    left: 700px;
+    bottom: 10px;
+}
+
+.baloon4 {
+    background: rgb(21, 255, 0);
+    left: 1020px;
+    bottom: 10px;
+}
+
+.baloon5 {
+    background: rgb(255, 251, 0);
+    left: 1400px;
+    bottom: 10px;
+}
+
+body {
+    background-color: rgb(41, 129, 110);
+    text-align: center;
+    color: cornsilk;
+}

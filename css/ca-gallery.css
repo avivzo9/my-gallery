@@ -11,11 +11,20 @@ a {
     color: #fed136;
 }
 
+.btn-send {
+    cursor: pointer;
+}
+
 a.active,
 a:active,
 a:focus,
 a:hover {
     color: #fec503;
+}
+
+.email-form {
+    background-color: rgba(251, 255, 0, 0.363);
+    margin: 5px;
 }
 
 h1,
@@ -97,10 +106,14 @@ body {
     margin-right: 80vw;
 }
 
+.special-btn {
+    color: white;
+}
+
 .offcanvas-aside {
     position: fixed;
     height: 100%;
-    background: red;
+    background: rgb(255, 196, 0);
     width: 80vw;
     right: -80vw;
     z-index: 10;
@@ -214,7 +227,7 @@ body {
 header.masthead {
     text-align: center;
     color: white;
-    background-image: url("../img/header-bg.jpg");
+    background-image: url("https://techcrunch.com/wp-content/uploads/2020/05/GettyImages-1207384675.jpg?w=1390&crop=1");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
