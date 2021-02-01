@@ -4,7 +4,6 @@ var gId = 100;
 var gProjects;
 
 createProjects();
-console.log('gProjects:', gProjects)
 
 function createProjects() {
     var projects = [
